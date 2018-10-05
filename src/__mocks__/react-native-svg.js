@@ -8,47 +8,14 @@ export default function ({ children }) {
   )
 }
 
-export const Rect = (props) => {
+export const Rect = () => {
   return (
-    <span>Rect: {JSON.stringify(props)}</span>
+    <span>Rect</span>
   )
 }
 
-export const Path = (props) => {
+export const Path = () => {
   return (
-    <span>Path: {JSON.stringify(props)}</span>
-  )
-}
-
-export const G = ({ children, ...props }) => {
-  return (
-    <span>
-      G: {JSON.stringify(props)}
-      children: {children}
-    </span>
-  )
-}
-
-export const Defs = ({ children, ...props }) => {
-  return (
-    <span>
-      Defs: {JSON.stringify(props)}
-      children: {children}
-    </span>
-  )
-}
-
-export const Image = (props) => {
-  return (
-    <span>Image: {JSON.stringify(props)}</span>
-  )
-}
-
-export const ClipPath = ({ children, ...props }) => {
-  return (
-    <span>
-      ClipPath: {JSON.stringify(props)}
-      children: {children}
-    </span>
+    <span>Path</span>
   )
 }
